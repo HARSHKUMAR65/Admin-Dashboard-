@@ -1,8 +1,8 @@
 import React from 'react';
-import { PieChart, Pie, Tooltip, ResponsiveContainer, Legend, Cell } from 'recharts';
+import { PieChart, Pie, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 import Banglore from '../Mocks/Banglore';
 
-const PieeChart = () => {
+const WeatherPieChart = () => {
     return (
         <div className="w-4/5 mx-auto p-6 rounded-lg shadow-lg bg-white">
             <h1 className="text-center text-2xl font-semibold text-gray-700 mb-4">City Weather Data</h1>
@@ -41,4 +41,4 @@ const PieeChart = () => {
     );
 };
 
-export default PieeChart;
+export default WeatherPieChart;

@@ -1,14 +1,12 @@
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import Banglore from '../Mocks/Banglore';
 
-const LinePlot = () => {
-    const data = Banglore;
-
+const WeatherLinePlot = () => {
     return (
         <div style={{ width: '100%', height: 400 }} className="w-4/5 mx-auto p-6 rounded-lg shadow-lg bg-white ">
             <ResponsiveContainer width="100%" height="100%" >
                 <LineChart
-                    data={data}
+                    data={Banglore}
                     margin={{
                         top: 5,
                         right: 30,
@@ -29,4 +27,4 @@ const LinePlot = () => {
     );
 }
 
-export default LinePlot;
+export default WeatherLinePlot;
