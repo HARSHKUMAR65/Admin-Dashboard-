@@ -32,7 +32,7 @@ const App = () => {
     };
     return (
         <>
-            <div className="container mx-auto p-4 space-y-6  shadow-lg my-5">
+            <div className=" container-lg mx-auto p-4 space-y-6  shadow-lg my-5">
                 <h1 className="text-3xl font-bold mx-2 my-5 mb-6">Weather Dashboard</h1>
                 <div className="flex flex-col lg:flex-row gap-6">
                     <div className="flex-1">
